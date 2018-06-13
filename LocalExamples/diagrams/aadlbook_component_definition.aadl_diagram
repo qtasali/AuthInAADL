@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="1">
+  <element id="0" manual="true" autoContentsFilter="allow_fundamental">
+    <element id="4" manual="true" autoContentsFilter="allow_fundamental">
+      <element id="40" manual="true" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>connection</seg>
+          <seg>eth0</seg>
+        </bo>
+      </element>
+      <element id="41" manual="true" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>connection</seg>
+          <seg>eth1</seg>
+        </bo>
+      </element>
+      <element id="43" manual="true" autoContentsFilter="allow_fundamental">
+        <element id="50" autoContentsFilter="allow_fundamental">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>processing_to_receiver</seg>
+        </bo>
+      </element>
+      <element id="42" manual="true" autoContentsFilter="allow_fundamental">
+        <element id="51" autoContentsFilter="allow_fundamental">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>sender_to_processing</seg>
+        </bo>
+      </element>
+      <element id="1">
+        <bo>
+          <seg>pvg</seg>
+          <seg>security_attributes::category</seg>
+        </bo>
+      </element>
+      <element id="2">
+        <bo>
+          <seg>pvg</seg>
+          <seg>security_attributes::class</seg>
+        </bo>
+      </element>
+      <element id="44" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <element id="38" manual="true" autoContentsFilter="allow_type">
+        <element id="59" manual="true" autoContentsFilter="allow_fundamental" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>eth</seg>
+          </bo>
+          <position y="50.0"/>
+        </element>
+        <element id="60" manual="true" autoContentsFilter="allow_fundamental">
+          <bo>
+            <seg>tag</seg>
+            <seg>sc_type</seg>
+          </bo>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>cpu0</seg>
+        </bo>
+        <position x="737.0" y="360.0"/>
+        <size width="298.0" height="114.0"/>
+      </element>
+      <element id="39" manual="true" autoContentsFilter="allow_type">
+        <element id="61" manual="true" autoContentsFilter="allow_fundamental" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>eth</seg>
+          </bo>
+          <position y="50.0"/>
+        </element>
+        <element id="62" manual="true" autoContentsFilter="allow_fundamental">
+          <bo>
+            <seg>tag</seg>
+            <seg>sc_type</seg>
+          </bo>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>cpu1</seg>
+        </bo>
+        <position x="406.0" y="120.0"/>
+        <size width="529.0" height="187.0"/>
+      </element>
+      <element id="34" manual="true" autoContentsFilter="allow_type">
+        <element id="49" manual="true" autoContentsFilter="allow_fundamental">
+          <bo>
+            <seg>tag</seg>
+            <seg>sc_type</seg>
+          </bo>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>eth</seg>
+        </bo>
+        <position x="378.0" y="277.0"/>
+        <size width="312.0" height="50.0"/>
+      </element>
+      <element id="37" manual="true" autoContentsFilter="allow_type">
+        <element id="52" manual="true" autoContentsFilter="allow_fundamental" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>valuein</seg>
+          </bo>
+          <position x="287.0" y="50.0"/>
+        </element>
+        <element id="53" manual="true" autoContentsFilter="allow_fundamental" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>valueout</seg>
+          </bo>
+          <position y="50.0"/>
+        </element>
+        <element id="54" manual="true" autoContentsFilter="allow_fundamental">
+          <bo>
+            <seg>tag</seg>
+            <seg>sc_type</seg>
+          </bo>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>processing</seg>
+        </bo>
+        <position x="20.0" y="50.0"/>
+        <size width="352.0" height="104.0"/>
+      </element>
+      <element id="36" manual="true" autoContentsFilter="allow_type">
+        <element id="55" manual="true" autoContentsFilter="allow_fundamental" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>valuein</seg>
+          </bo>
+          <position y="50.0"/>
+        </element>
+        <element id="56" manual="true" autoContentsFilter="allow_fundamental">
+          <bo>
+            <seg>tag</seg>
+            <seg>sc_type</seg>
+          </bo>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>receiver</seg>
+        </bo>
+        <position x="20.0" y="174.0"/>
+        <size width="334.0" height="104.0"/>
+      </element>
+      <element id="35" manual="true" autoContentsFilter="allow_type">
+        <element id="57" manual="true" autoContentsFilter="allow_fundamental" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>valueout</seg>
+          </bo>
+          <position y="50.0"/>
+        </element>
+        <element id="58" manual="true" autoContentsFilter="allow_fundamental">
+          <bo>
+            <seg>tag</seg>
+            <seg>sc_type</seg>
+          </bo>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>sender</seg>
+        </bo>
+        <position x="737.0" y="210.0"/>
+        <size width="323.0" height="104.0"/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>integeration.i</seg>
+      </bo>
+      <position x="20.0" y="50.0"/>
+      <size width="1067.0" height="541.0"/>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>aadlbook::component_definition</seg>
+    </bo>
+    <position x="20.0"/>
+    <size width="1087.0" height="591.0"/>
+  </element>
+  <config>
+    <enabledAadlProperties>
+      <property>security_attributes::category</property>
+      <property>security_attributes::class</property>
+    </enabledAadlProperties>
+    <context>
+      <seg>package</seg>
+      <seg>aadlbook::component_definition</seg>
+    </context>
+  </config>
+</diagram:Diagram>
